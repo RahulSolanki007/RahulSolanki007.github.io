@@ -24,13 +24,13 @@
     <div class="container">
       <div class="row">
         <div class="col-4 col-5-large col-12-medium">
-          <span class="image fit"><img src="assets\images\LinkedInProfilePhoto.JPG" alt="" /></span>
+          <span class="image fit"><img src="assets\images\LinkedInProfilePhoto.JPG" alt="Description" style="max-width: 100%; height: 100%; object-fit: contains;"></span>
         </div>
         <div class="col-8 col-7-large col-12-medium">
           <header>
             <h1>Hi. I'm <strong>Rahul Solanki</strong>.</h1>
           </header>
-          <p>Senior SDET at Brillio | Certified SAFe® 5 Practitioner
+          <p>DevOps | AWS | Cloud Formation | CI/CD | AWS Certified Solution Architect | Certified SAFe® 5 Practitioner
            
 
           </p>
@@ -45,36 +45,127 @@
     <div class="container">
       <header>
         <h2>Here's all the stuff I do.</h2>
-        <p>QA-QA Automation-Performance Testing-Agile Management</p>
+        <!-- <p>DevOps work </p> -->
       </header>
       <div class="row aln-center">
         <div class="col-4 col-6-medium col-12-small">
-          <section class="box style1">
+          <section class="box style1" style="width: 100%; height: 100%;">
             <span class="icon featured fa-comments"></span>
-            <h3>QA</h3>
-            <p>Functional testing, Non Functional testings like database and API, Test Planning, Test strategy
-              preparation, Bug tracking, Defect Clustering and Triage, Testings like shift left, regression, system
-              integration, exploratory.</p>
+            <h3>Continuous Integration and Continuous Deployment (CI/CD) with CircleCI</h3>
+            <p>In my development workflow, I leverage CircleCI to streamline and automate the processes of building, testing, and
+            deploying applications. By integrating CircleCI, I ensure that code changes are continuously integrated into a shared
+            repository, triggering automated builds and tests. This approach reduces integration issues and accelerates the
+            development cycle.</p>
+            <p>With CircleCI, I configure pipelines to automate the deployment of applications across different environments, ensuring
+            faster delivery of new features and bug fixes with minimal downtime. Whether it's deploying to staging for testing or
+            pushing code to production, CircleCI provides a reliable, scalable solution to ensure consistency and quality at every
+            stage of development.</p>
+            
+            
+            <h3>Key benefits of using CircleCI include:</h3>
+            <ul>
+            <li><strong>Automated Testing:</strong> Run unit, integration, and UI tests automatically with every code push, ensuring higher code quality.</li> 
+            <li><strong>Parallelism:</strong> Speed up builds and tests by running them in parallel across multiple containers.</li> 
+            <li><strong>Customizable Pipelines:</strong> Tailor workflows for specific branches, ensuring that different environments and conditions trigger the appropriate builds and deployments.</li> 
+            
+            <li><strong>Integrated with GitHub and Bitbucket: </strong> Easily connect with code repositories for seamless integration and continuous
+            delivery.</li>  
+            <p> This CI/CD process improves the efficiency of my development workflow and enhances collaboration within teams, enabling
+            faster iterations and more reliable deployments.</p>
+            </ul>
           </section>
         </div>
         <div class="col-4 col-6-medium col-12-small">
-          <section class="box style1">
+          <section class="box style1"  style="width: 100%; height: 100%;">
             <span class="icon solid featured fa-camera-retro"></span>
-            <h3>QA Automation</h3>
-            <p>Functional automation using Selenium with Java & Python, API automation using Postman and Python with
-              Requests library and Pytest.
-              Worked on Playwright and Appium with Java. Robot framework using Python for web apps.
+            <h3>Infrastructure as Code (IaC) with AWS CloudFormation</h3>
+            <p>In my projects, I utilize Infrastructure as Code (IaC) to define and manage infrastructure using code rather than manual
+            processes. This approach ensures that infrastructure is automated, repeatable, and version-controlled, improving both
+            reliability and efficiency.
             </p>
+            <p>I primarily use AWS CloudFormation to provision and manage AWS resources in a consistent and declarative manner. By
+            writing CloudFormation templates in YAML or JSON, I can define the entire infrastructure—ranging from EC2 instances and
+            S3 buckets to complex networking setups and security policies—within a single versioned file.
+            
+            With CloudFormation, I can easily:</p>
+            <li><strong>Automate Infrastructure Provisioning:</strong> Define and deploy infrastructure consistently across multiple environments, reducing the potential for human error.</li>
+            <li><strong>Version Control Infrastructure:</strong> Store infrastructure templates in Git repositories, enabling easy tracking of changes and collaboration across teams.</li>
+            <li><strong>Create Repeatable and Scalable Deployments:</strong> Use templates to provision scalable environments, ensuring consistent deployments regardless of region or environment.</li>
+            <li><strong>Integrate with CI/CD Pipelines:</strong> Automate the deployment of infrastructure changes alongside application code, maintaining a continuous and efficient
+            development workflow.</li>
+            <li><strong>Simplify Resource Management:</strong> With CloudFormation Stacks, I can manage related resources as a single unit, simplifying updates and rollbacks.</li>
+            <p>Using AWS CloudFormation allows me to confidently manage cloud infrastructure at scale while reducing manual
+            intervention and enhancing security, ensuring a robust and automated cloud environment for any project.</p>
           </section>
         </div>
         <div class="col-4 col-6-medium col-12-small">
-          <section class="box style1">
+          <section class="box style1"  style="width: 100%; height: 100%;">
             <span class="icon featured fa-thumbs-up"></span>
-            <h3>Agile Principles</h3>
-            <p>Agile Scrum and Kanban understanding. Agile management with handling daily standup calls, retrospectives,
-              review meetings.
-              Managed teams of 2 different projects with 4 members each. Acceptance Criteria and Bugs tracking.
+            <h3>AWS Lambda with CloudFormation for Serverless Computing</h3>
+            <p>In my cloud architecture, I harness the power of AWS Lambda to implement serverless computing, enabling applications to
+            run without provisioning or managing servers. AWS Lambda allows me to focus purely on writing code, while AWS
+            automatically handles the scaling, patching, and management of the infrastructure, ensuring optimal performance and
+            cost-efficiency.
             </p>
+            <p>Using AWS CloudFormation, I can define and automate the deployment of Lambda functions as part of my infrastructure. By
+            incorporating Lambda into CloudFormation templates, I can consistently provision, configure, and manage serverless
+            applications within the same framework that handles other AWS resources, such as API Gateway, S3, or DynamoDB.</p>
+            <p>Key benefits of using AWS Lambda with CloudFormation include:</p>
+            <li><strong>Serverless Architecture:</strong> Run code without worrying about servers, reducing operational overhead and cost.</li>
+            <li><strong>Declarative Infrastructure:</strong> Define Lambda functions along with their event sources (e.g., S3 uploads, API calls, DynamoDB streams) in CloudFormation
+            templates, ensuring reproducible and consistent infrastructure across environments.</li>
+            <li><strong>Event-Driven Workflows:</strong> Set up event triggers to automatically invoke Lambda functions in response to a variety of AWS events, such as changes
+            to data in S3 or database updates.</li>
+            <li><strong>Scalability and Cost Efficiency:</strong> AWS Lambda automatically scales with the volume of incoming requests and only charges for the compute time consumed,
+            ensuring cost-effective execution.</li>
+            <li><strong>Seamless Integration:</strong> Easily integrate Lambda with other AWS services, such as API Gateway for building APIs, SNS for messaging, or CloudWatch
+            for monitoring, all defined and deployed via CloudFormation.</li>
+            <!-- <p> By using AWS Lambda and CloudFormation together, I can deliver highly scalable, event-driven applications while
+            maintaining a consistent and automated deployment process, ensuring efficient and reliable serverless computing
+            solutions.</p> -->
+          </section>
+        </div>
+        <div class="col-4 col-6-medium col-12-small">
+          <section class="box style1"  style="width: 100%; height: 100%;">
+            <span class="icon featured fa-thumbs-up"></span>
+            <h3>Version Control with Git</h3>
+            <p>In my development workflow, I rely heavily on Git for version control to manage and track changes in my codebase. Git
+            allows me to collaborate efficiently with teams, maintain code integrity, and ensure a smooth development process by
+            providing a powerful, distributed version control system.
+            
+            With Git, I can:</p>
+            <li><strong>Track Changes:</strong> Keep a detailed history of changes to my project, making it easy to review past modifications, revert to previous
+            versions, and understand the evolution of the code.</li>
+            <li><strong>Branching and Merging:</strong>Use branching to develop new features, fix bugs, or experiment without affecting the main codebase. Git's merging
+            capabilities allow me to bring those changes together seamlessly.</li>
+            <li><strong>Collaborate Effectively:</strong> Work with other developers by sharing code, resolving conflicts, and managing contributions through Git's powerful
+            collaboration features like pull requests, rebasing, and forking.</li>
+            <li><strong>Backup and Restore:</strong> Ensure that code is safely stored in repositories, enabling me to quickly restore previous versions if necessary.</li>
+            <li><strong>Integrate with CI/CD:</strong> Combine Git with continuous integration and continuous deployment (CI/CD) pipelines to automatically run tests, deploy
+            code, and streamline development workflows.</li>
+          </section>
+        </div>
+        <div class="col-4 col-6-medium col-12-small">
+          <section class="box style1"  style="width: 100%; height: 100%;">
+            <span class="icon featured fa-thumbs-up"></span>
+            <h3>Containerization with Docker</h3>
+            <p>I utilize Docker to create lightweight, portable, and consistent development environments for my projects. Docker allows
+            me to package applications and their dependencies into containers, ensuring that they run reliably across different
+            environments, whether it's on my local machine, in staging, or in production.
+            
+            With Docker, I can:</p>
+            <li><strong>Ensure Consistency:</strong> Package an application and all its dependencies into a single container, ensuring that it works the same way on any
+            machine, eliminating "works on my machine" issues.</li>
+            <li><strong>Simplify Development and Deployment:</strong> Use Docker containers to quickly spin up consistent environments, which helps streamline development, testing, and
+            deployment processes.</li>
+            <li><strong>Isolate Applications:</strong> Run multiple services, such as databases, web servers, and backend applications, in isolated containers. This enables me
+            to manage and scale different components of a system without interference.</li>
+            <li><strong>Version Control for Environments:</strong> Docker images can be versioned and shared across teams or environments, making it easy to replicate and deploy
+            applications consistently.</li>
+            <li><strong>Integrate with CI/CD Pipelines:</strong> Docker seamlessly integrates with CI/CD tools to automate testing, deployment, and scaling, improving the speed and
+            reliability of my workflows.</li>
+            <li><strong> Simplify Cloud Deployment:</strong> With Docker, I can easily deploy containers to various cloud platforms like AWS, Google Cloud, or Azure, ensuring the
+            same containerized application runs in different cloud environments.</li>
           </section>
         </div>
       </div>
