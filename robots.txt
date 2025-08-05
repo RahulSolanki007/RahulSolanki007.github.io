@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rahulsolanki007.github.io/sitemap.xml
